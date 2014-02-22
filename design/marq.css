@@ -1,0 +1,40 @@
+/img.MarqImage {
+/display:none;
+ /}  
+/marquee.textmarquee {
+ /display:none;
+ /}        
+
+ img.MarqImage {
+display:inline;
+width:auto;
+height:auto;
+max-height:60px;
+vertical-align:bottom;		         
+ }                 
+marquee.MarqImage {
+display:inline;
+width:auto;
+height:auto;
+max-height:60px;	
+}
+marquee.textmarquee {
+background-color:transparent;
+font-size: 30pt;
+color:#00ffcc;
+text-shadow: 0 2px 2px #000;
+font-weight: bold;
+border: none;
+line-height: 1;
+width:auto;
+font-family:BARBECUE;
+max-height:60px;
+vertical-align:bottom;	
+}
+@font-face {
+ font-family: 'BARBECUE';
+ src: url('/foro/plugins/Marquee/fonts/BARBECUE.TTF');
+ src: url('/foro/plugins/Marquee/fonts/BARBECUE.TTF') format('truetype');
+  font-weight: normal;
+ font-style: normal;
+}
